@@ -1,0 +1,42 @@
+.to-do {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-top: 94px;
+    padding-bottom: 94px;
+    background-color: var(--color-white);
+}
+
+.to-do-list{
+    display: flex;
+    gap: 30px
+}
+
+.to-do-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--color-light-grey);
+    border-radius: 4px;
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+}
+
+.to-do-body {
+    flex-basis: calc((100% - 90px) / 4)
+}
+
+.to-do-title {
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--color-black);
+    margin-bottom: 10px;
+}
+
+.to-do-text {
+    line-height: 1.71;
+    color: var(--color-grey);
+}
+
