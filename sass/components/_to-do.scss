@@ -28,8 +28,7 @@
 }
 
 .to-do__title {
-    font-size: 14px;
-    line-height: 1.14;
+    @include font (null, 14, 1.14, 0.03);
     text-transform: uppercase;
     color: var(--color-black);
     margin-bottom: 10px;

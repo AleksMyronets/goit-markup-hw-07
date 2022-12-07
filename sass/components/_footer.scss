@@ -14,12 +14,10 @@
 }
 
 .footer-logo {
+    @include font (700, 26, 1.19, 0.03);
     display: block;
     margin-bottom: 20px;
     font-family: 'Raleway';
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
     color: var(--color-blue);
     text-decoration: none;
 }

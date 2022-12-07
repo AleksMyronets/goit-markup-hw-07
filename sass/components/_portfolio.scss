@@ -35,14 +35,12 @@ img{
 
 
 .portfolio-text{
+    @include font (400, 18, 1.55, 0.03);
     position: absolute;
     top: 0;
     left: 0;
     background-color: rgba(33, 150, 243, 0.9);
     color: var(--color-white);
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 1.55;
     padding: 63px 24px;
     height: 100%;
     transform: translateY(101%);
@@ -57,15 +55,12 @@ img{
 }
 
 .project-name-title {
+    @include font (null, 18, 2, 0.06);
     margin-bottom: 4px;
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
     color: var(--color-black);
 }
 
 .filter-text {
-    font-size: 16px;
-    line-height: 1.88;
+    @include font (500, 16, 1.88, 0.03);
     color: var(--color-grey);
 }

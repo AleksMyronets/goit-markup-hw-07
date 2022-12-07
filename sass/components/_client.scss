@@ -1,8 +1,6 @@
 .client__title{
+    @include font (null, 36, 1.17, 0.03);
     margin-bottom: 50px;
-    font-size: 36px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
     text-align: center;
     color: var(--color-client-title);
 }

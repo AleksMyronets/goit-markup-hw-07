@@ -122,14 +122,15 @@ body {
 }
 
 .modal-title {
-  font-weight: 700;
   font-size: 20px;
-  line-height: 23px;
+  line-height: 1.15;
+  letter-spacing: 0.03em;
   text-align: center;
   color: var(--color-black-link);
 }
 
 .modal-field {
+  font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
@@ -159,20 +160,19 @@ body {
 }
 
 .modal-button-form {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
   margin: 0 auto;
   width: 200px;
   height: 50px;
   background: var(--color-modal-button);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
   border: none;
   display: flex;
   justify-content: center;
   align-items: center;
-  letter-spacing: 0.06em;
   color: var(--color-white);
 }
 .modal-button-form:focus, .modal-button-form:hover {
@@ -285,10 +285,11 @@ body {
 }
 
 .checkbox-label {
-  margin-left: 7px;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  letter-spacing: 0.03em;
+  margin-left: 7px;
   color: var(--color-grey);
 }
 
@@ -307,15 +308,19 @@ body {
 }
 
 .sing-up-title {
-  margin-bottom: 20px;
-  font-weight: 700;
   font-size: 14px;
   line-height: 1.88;
+  letter-spacing: 0.03em;
+  margin-bottom: 20px;
   text-transform: uppercase;
   color: var(--color-white);
 }
 
 .button-sing-up {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
   display: flex;
   margin-left: 12px;
   width: 200px;
@@ -326,10 +331,6 @@ body {
   border: none;
   align-items: center;
   justify-content: center;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
-  letter-spacing: 0.06em;
   color: var(--color-white);
   transition: background 250ms var(--timing-function);
 }
@@ -344,18 +345,18 @@ body {
 }
 
 .sing-up-email {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
   padding-left: 16px;
   width: 358px;
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   background-color: var(--color-dark-grey);
   border-radius: 4px;
-  font-weight: 400;
   font-style: normal;
-  font-size: 16px;
-  line-height: 1.25;
   align-items: center;
-  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   transition: border 250ms var(--timing-function);
 }
@@ -390,6 +391,7 @@ body {
 
 .link {
   font-weight: 500;
+  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--color-grey);
@@ -426,13 +428,14 @@ body {
 }
 
 .list-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.63;
+  letter-spacing: 0.02em;
   position: relative;
   padding-top: 32px;
   padding-bottom: 32px;
   display: flex;
-  font-weight: 500;
-  line-height: 16px;
-  letter-spacing: 0.02em;
   color: var(--color-black-link);
   text-decoration: none;
   transition: color 250ms var(--timing-function);
@@ -463,13 +466,14 @@ body {
 }
 
 .logo {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
   padding-top: 24px;
   padding-bottom: 24px;
   margin-right: 93px;
   font-family: "Raleway";
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
   color: var(--color-blue);
   text-decoration: none;
 }
@@ -566,6 +570,7 @@ body {
 .to-do__title {
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--color-black);
   margin-bottom: 10px;
@@ -587,9 +592,9 @@ body {
 }
 
 .work-img__title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
+  letter-spacing: 0.03em;
   text-align: center;
   margin-bottom: 50px;
   color: var(--color-black);
@@ -607,6 +612,9 @@ body {
 }
 
 .work-img__text {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
   position: absolute;
   width: 100%;
   height: 70px;
@@ -616,11 +624,7 @@ body {
   justify-content: center;
   align-items: center;
   background-color: rgba(47, 48, 58, 0.8);
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
   text-align: center;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--color-white);
 }
@@ -633,10 +637,10 @@ body {
 }
 
 .team__comands {
-  margin-bottom: 50px;
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
   text-align: center;
   color: var(--color-black);
 }
@@ -665,18 +669,20 @@ body {
 }
 
 .team__name-title {
-  margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
+  letter-spacing: 0.03em;
+  margin-bottom: 10px;
   text-align: center;
   color: var(--color-black);
 }
 
 .team__jobs-title {
-  margin-bottom: 16px;
   font-size: 16px;
   line-height: 1.19;
+  letter-spacing: 0.03em;
+  margin-bottom: 16px;
   text-align: center;
   color: var(--color-grey);
 }
@@ -718,10 +724,10 @@ body {
 }
 
 .client__title {
-  margin-bottom: 50px;
   font-size: 36px;
   line-height: 1.17;
   letter-spacing: 0.03em;
+  margin-bottom: 50px;
   text-align: center;
   color: var(--color-client-title);
 }
@@ -785,12 +791,12 @@ body {
 }
 
 .filter-button {
-  padding: 6px 22px;
-  font-family: "Roboto";
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.63;
   letter-spacing: 0.03em;
+  padding: 6px 22px;
+  font-family: "Roboto";
   text-align: center;
   color: var(--color-black);
   background: var(--color-light-grey);
@@ -838,14 +844,15 @@ img {
 }
 
 .portfolio-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.55;
+  letter-spacing: 0.03em;
   position: absolute;
   top: 0;
   left: 0;
   background-color: rgba(33, 150, 243, 0.9);
   color: var(--color-white);
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 1.55;
   padding: 63px 24px;
   height: 100%;
   transform: translateY(101%);
@@ -860,16 +867,18 @@ img {
 }
 
 .project-name-title {
-  margin-bottom: 4px;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  margin-bottom: 4px;
   color: var(--color-black);
 }
 
 .filter-text {
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.88;
+  letter-spacing: 0.03em;
   color: var(--color-grey);
 }
 
@@ -889,12 +898,13 @@ img {
 }
 
 .footer-logo {
-  display: block;
-  margin-bottom: 20px;
-  font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  letter-spacing: 0.03em;
+  display: block;
+  margin-bottom: 20px;
+  font-family: "Raleway";
   color: var(--color-blue);
   text-decoration: none;
 }
@@ -940,10 +950,10 @@ img {
 }
 
 .social-link-title {
-  margin-bottom: 20px;
-  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.03em;
+  margin-bottom: 20px;
   text-transform: uppercase;
   color: var(--color-white);
 }

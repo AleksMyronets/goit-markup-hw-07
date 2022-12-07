@@ -8,16 +8,15 @@
 }
 
 .sing-up-title {
+    @include font (null, 14, 1.88, 0.03);
     margin-bottom: 20px;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.88;
     text-transform: uppercase;
     color: var(--color-white);
 
 }
 
 .button-sing-up {
+    @include font (700, 16, 1.88, 0.06);
     display: flex;
     margin-left: 12px;
     width: 200px;
@@ -28,10 +27,6 @@
     border: none;
     align-items: center;
     justify-content: center;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.88;
-    letter-spacing: 0.06em;
     color: var(--color-white);
     transition: background 250ms var(--timing-function);
         &:hover {
@@ -47,18 +42,15 @@
 }
 
 .sing-up-email {
+    @include font (400, 16, 1.25, 0.03);
     padding-left: 16px;
     width: 358px;
     height: 50px;
     border: 1px solid rgba(255, 255, 255, 0.3);
     background-color: var(--color-dark-grey);
     border-radius: 4px;
-    font-weight: 400;
     font-style: normal;
-    font-size: 16px;
-    line-height: 1.25;
     align-items: center;
-    letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     transition: border 250ms var(--timing-function);
         &:hover {

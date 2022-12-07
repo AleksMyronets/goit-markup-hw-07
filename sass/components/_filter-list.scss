@@ -18,12 +18,9 @@
 }
 
 .filter-button {
+    @include font (500, 16, 1.63, 0.03);
     padding: 6px 22px;
     font-family: 'Roboto';
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;
-    letter-spacing: 0.03em;
     text-align: center;
     color: var(--color-black);
     background: var(--color-light-grey);
