@@ -1,4 +1,4 @@
-.client-title{
+.client__title{
     margin-bottom: 50px;
     font-size: 36px;
     line-height: 1.17;
@@ -14,20 +14,20 @@
     gap: 30px;
 }
 
-.client-list {
+.client__list {
     display: flex;
     gap: 30px;
     justify-content: center;
 }
 
-.client-item {
+.client__item {
     width: 170px;
     height: 92px;
     transition: color 250ms var(--timing-function), background-color 250ms var(--timing-function);
  
 }
 
-.client-link {
+.client__link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -44,12 +44,6 @@
         }
 }
 
-// .client-link:hover,
-// .client-link:focus {
-//     fill: var(--color-blue);
-//     border: 1px solid var(--color-blue);
-// }
-
-.client-logo {
+.client__logo {
     fill: currentColor;
 }

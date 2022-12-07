@@ -7,12 +7,12 @@
     background-color: var(--color-white);
 }
 
-.to-do-list{
+.to-do__list{
     display: flex;
     gap: 30px
 }
 
-.to-do-box{
+.to-do__box{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -23,11 +23,11 @@
     margin-bottom: 30px;
 }
 
-.to-do-body {
+.to-do__item {
     flex-basis: calc((100% - 90px) / 4)
 }
 
-.to-do-title {
+.to-do__title {
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
@@ -35,7 +35,7 @@
     margin-bottom: 10px;
 }
 
-.to-do-text {
+.to-do__text {
     line-height: 1.71;
     color: var(--color-grey);
 }
