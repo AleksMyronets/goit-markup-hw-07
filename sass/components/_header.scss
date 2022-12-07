@@ -49,11 +49,6 @@
     align-items: center;
 }
 
-// .link:hover,
-// .link:focus {
-//     color: var(--color-blue);
-// }
-
 .icon-contact-mailto{
     width: 16px;
     height: 12px;
@@ -84,20 +79,6 @@
     
 }
 
-// .current::after{
-//     content: "";
-//     position: absolute;
-//     left: 0;
-//     bottom: 0;
-//     display: block;
-//     opacity: 1;
-//     transition: opacity 250ms var(--timing-function);
-//     width: 100%;
-//     height: 4px;
-//     background: var(--color-blue);
-//     border-radius: 2px;
-// }
-
 .current{
     color: var(--color-blue);
         &::after {
@@ -118,8 +99,3 @@
 .list-link .current{
     color: var(--color-blue);
 }   
-
-// .list-link:hover,
-// .list-link:focus {
-//     color: var(--color-blue);
-// }
